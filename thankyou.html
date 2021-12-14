@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+   <!--Name: Tori Langguth
+    Date: 12/13/2021
+    Assignment: My Business Website
+    File: My Business Website
+  -->
+  <meta charset="utf-8">
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="static/styles.css" />
+  <title>#</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Thank you for requesting an appt! You will receive a response within 2-3 business days!</h2>
+
+    <script>
+      printQuery();
+    </script>
+  </div>
+</body>
+
+</html>

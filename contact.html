@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Name: Tori Langguth
+    Date: 12/13/2021
+    Assignment: My Business Website
+    File: My Business Website
+  -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>Contact</title>
+       <link rel="stylesheet" href="style/contact.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1><strong>Connect With Us!</strong></h1>
+            <h3><strong>We would love to respond to your queries and help you succeed. Feel free to get in touch with us.</strong></h3>
+            <form action="thankyou.html" method="GET">
+                <fieldset class="elem-field">
+                    <legend>Contact Information</legend>
+                    <label>First Name:</label>
+                    <input name="firstName" type="text" placeholder="Please enter your name" class="form-input" required>
+                    <label>Last Name:</label>
+                    <input name="lastName" type="text" placeholder="Please enter your name" class="form-input" required>
+                    <label>Email:</label>
+                    <input name="email" type="email" placeholder="yourEmail@example.com" class="form-input" required>
+					<label>Telephone:</label>
+                    <input name="number" type="text" placeholder="Enter your Telephone number" class="form-input" required>
+					
+                </fieldset>
+
+
+               <fieldset class="elem-field">
+                    <!--<legend>Reservation Request</legend>-->
+                    <label>Street Address:</label>
+                    <input name="address" type="text" placeholder="Enter your address" class="form-input">
+
+                    <label>State:</label>
+                    <select name="State" class="form-control">
+                        <option>California</option>
+                        <option>Missouri</option>
+                        <option>Washington</option>
+                        <option>Ohio</option>
+                        <option>Alaska</option>
+                        <option>Hawaii</option>
+                        <option>Florida</option>
+                        <option>Colorado</option>
+                        <option>Kansas</option>
+                        <option>New York</option>
+                        <option>Lowa</option>
+                        <option>lllinois</option>
+                    </select>
+
+                    <label>City:</label>
+                    <input name="city" type="text" placeholder="Enter your city" class="form-input">
+
+                    <label>Zip Code:</label>
+                    <input name="code" type="number" placeholder="Enter your code" class="form-input">
+                </fieldset>
+
+                <fieldset class="elem-field">
+                    <legend>Other Concerns</legend>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Transportation">
+                    <label>Product</label>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Food">
+                    <label>Pricing</label>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Housing">
+                    <label>Support</label>
+                    <input type="checkbox" id="vehicle4" name="vehicle4" value="Abuse">
+                    <label>Other</label>
+                </fieldset>
+
+                <fieldset class="elem-field">
+                    <legend>Additional Info</legend>
+                    <textarea rows="3" class="form-input">What is your question or comment regarding?</textarea>
+                </fieldset>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        
+        </div>
+
+    </body>
+    </html>
+    
